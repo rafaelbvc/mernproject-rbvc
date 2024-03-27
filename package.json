@@ -1,14 +1,22 @@
 {
   "name": "mernproject-rbvc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is Rafael Vendramini project for Fullstack JavaScript Development: MongoDB, Node, and React from LinkedIn course",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelbvc/mernproject-rbvc"
+  },
   "author": "Rafael Vendramini",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
   }
 }
