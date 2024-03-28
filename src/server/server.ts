@@ -1,4 +1,7 @@
 import express from "express";
+import os from "node:os";
+
+import config from "./config";
 
 const server = express();
 
@@ -12,6 +15,8 @@ server.use("/", (req, res) => {
     });
 });
 
-server.listen("8080", "localhost", () => {
-    console.info("Express server is listening at http://localhost:8080");
+server.listen(config.PORT, config.HOST, () => {
+    console.info(
+        `Express server is listening at ${config.SERVER_URL}`, 
+        `Free Mem: ${os.freemem() / 1024 / 1024}`);
 });
