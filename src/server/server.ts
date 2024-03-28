@@ -12,6 +12,6 @@ server.use("/", (req, res) => {
     });
 });
 
-server.listen("8080", "0.0.0.0", () => {
-    console.info("Express server is listening at http://0.0.0.0:8080");
+server.listen("8080", "localhost", () => {
+    console.info("Express server is listening at http://localhost:8080");
 });
