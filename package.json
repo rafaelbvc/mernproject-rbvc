@@ -1,6 +1,6 @@
 {
   "name": "mernproject-rbvc",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This is Rafael Vendramini project for Fullstack JavaScript Development: MongoDB, Node, and React from LinkedIn course",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,7 @@
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.19.2",
+    "mongodb": "^6.5.0",
     "typescript": "^5.4.3"
   },
   "devDependencies": {
