@@ -6,6 +6,7 @@ import apiRouter from "./api-router";
 
 const server = express();
 
+
 server.use(express.static("dist"));
 
 server.set("view engine", "ejs");
